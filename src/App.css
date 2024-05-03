@@ -1,0 +1,114 @@
+.nav-a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-a:focus{
+    background-color: #536357;
+    color:white;
+}
+.nav-l{
+    display:inline-block;
+    padding:10px;
+    margin-top: 5px;
+}
+.nav-bar{
+    display:grid;
+    grid-template-columns: 20% auto auto 15%;
+}
+.nav-image{
+    grid-column:2/3;
+    margin-top:10px;
+}
+.nav-link{
+    grid-column: 3/4;
+}
+.reservation{
+    display:grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.head{
+    background-color:#536357;
+    height: 100%;
+    width: 100%;
+    grid-column: 1/6;
+    grid-row: 1/2;
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.h{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.title{
+    color:#F4CE14;
+    font-family: "Markazi Text", serif;
+    font-size: 40px;
+    padding:0;
+}
+#c{
+    color: #EDEFEE;
+    font-family: "Markazi Text";
+    font-size: 26px;
+    margin-bottom: 0;
+}
+#p{
+    color:white;
+}
+#b{
+    background-color:#F4CE14;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-right: 20px;
+    text-decoration: none;
+    border: #F4CE14;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pic{
+    grid-column: 4/6;
+    grid-row:1/3;
+    margin-top: 20px;
+}
+.specials{
+    grid-column: 1/6;
+    grid-row: 3/4;
+    display:grid;
+    grid-template-columns: 20% 30% 21.5% 28.5%;
+}
+.s{
+    grid-column: 2/3;
+    font-size: 20px;
+}
+.sp{
+    grid-column: -1/4;
+    margin-top: 37px;
+}
+img[alt="header pic"]{
+    border-radius: 10px;
+}
+#t{
+    font-family: "Markazi Text", serif;
+    font-weight: bold;
+}
+#o{
+    background-color:#F4CE14;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    text-decoration: none;
+    border: #F4CE14;
+}
+.card{
+    grid-column: 1/6;
+    grid-row: 4/5;
+    display:grid;
+    grid-template-columns: 20% auto auto auto 20%;
+}
+

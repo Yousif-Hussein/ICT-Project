@@ -1,10 +1,13 @@
 
 import './App.css';
-
+import Nav from "./components/Nav"
+import { Route, Routes } from 'react-router-dom';
+import Reservation from './components/Reservation';
 function App() {
   return (
     <div className="App">
-      <h1> My Final Project</h1>
+        <Nav/>
+        <Routes> <Route path='/reservation' element={<Reservation/>}/></Routes>
     </div>
   );
 }
