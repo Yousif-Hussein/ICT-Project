@@ -170,21 +170,8 @@ img[alt="header pic"]{
 }
 .card:hover{
     transform: scale(1.1);
-    background-color: #F4CE14;
     transform: rotateX(360);
     transition: transform 1s;
-    color:#EDEFEE;
-    .c-button{
-        background-color: #EDEFEE;
-        color:#536357
-    }
-    .c-button:hover{
-        color: #EDEFEE;
-        background-color: #536357;
-    }
-    .c-price{
-        color: #536357;
-    }
 }
 .card:first-child{
     grid-column: 2/3;
